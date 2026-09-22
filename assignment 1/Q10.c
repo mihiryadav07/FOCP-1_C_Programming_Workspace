@@ -22,12 +22,12 @@ int main()
 
     finalamount = subtotal - discountamount;
 
-    printf("\n========== INVOICE ==========\n");
+   
     printf("Product ID       : %d\n", productID);
     printf("Subtotal         : %.2f\n", subtotal);
     printf("Discount amount  : %.2f\n", discountamount);
     printf("Final payable    : %.2f\n", finalamount);
-    printf("=============================\n");
+  
 
     return 0;
 }
