@@ -11,12 +11,15 @@ int main() {
            
         if (num1 > 3 || num2 > 3) 
         { printf("invalid input"); }
-            
+        break;
+
         else if (num1 > num2) 
         { printf("player 1 wins"); }
-            
+        break;
+
         else if (num2 > num1) 
         { printf("player 2 wins"); }
+        break;
             
         else if (num1 == num2) 
         { printf("draw"); }
